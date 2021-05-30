@@ -18,6 +18,7 @@ a {
 }
 a.hover:hover {
     color: #a0138e;
+    text-decoration: none !important;
 }
 body {
     font-family: "Gilroy", sans-serif;
@@ -145,6 +146,9 @@ p {
 }
 .contact-list li {
     margin-bottom: 15px;
+}
+.contact-list li:first-child a {
+    text-decoration: underline;
 }
 .contact-list li:last-child {
     margin-bottom: 0;
