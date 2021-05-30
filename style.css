@@ -66,7 +66,7 @@ p {
     justify-content: space-between;
     margin-right: 30px;
 }
-.menu__item a{
+.menu__item a {
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -91,9 +91,12 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 .main__inner img {
     margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
 }
 .info {
     background-color: #811f74;
@@ -117,6 +120,10 @@ p {
 }
 .photo-block {
     margin-bottom: 60px;
+}
+.photo-block img {
+    max-width: 100%;
+    height: auto;
 }
 .contact {
     background-color: #26282d;
@@ -142,9 +149,6 @@ p {
 .contact-list li:last-child {
     margin-bottom: 0;
 }
-.contact-list li a {
-    text-decoration: underline;
-}
 .horizontal {
     justify-content: flex-start;
 }
@@ -167,4 +171,6 @@ p {
 }
 video  {
     box-shadow: 0 5px 30px rgba(0, 0, 0, .75);
+    max-width: 100%;
+    height: auto;
 }
