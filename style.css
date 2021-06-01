@@ -84,8 +84,10 @@ p {
 }
 .main {
     background-color: #26282d;
-    padding: 80px 0 40px 0;
+    padding: 80px 0 80px 0;
     background: linear-gradient(to bottom, #aa4b6b, #6b6b83, #3b8d99);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+    margin-bottom: -10%;
 }
 .main__inner {
     display: flex;
@@ -100,9 +102,8 @@ p {
     height: auto;
 }
 .info {
-    background-color: #811f74;
-    background: linear-gradient(to bottom, #AA076B, #b11cae);
-    padding: 40px 0 0 0;
+    background-color: #AA076B;
+    padding: 10% 0 0 0;
 }
 .info__inner {
     display: flex;
